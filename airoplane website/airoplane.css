@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+#home{
+    width: 1010px;
+    height: 1400px;
+    margin: auto;
+    background: url(./images-2/headerbg.jpg) no-repeat fixed;
+    background-size: cover;
+    position: relative;
+}
+.logo{
+    width: 122px;
+    height: 110px;
+    background: url(./images-2/logo.jpg);
+    background-size: cover;
+    position: absolute;
+    margin-top: 80px;
+    right: 450px;
+}
+.sitetitle{
+    width: 400px;
+    height: 153px;
+    position: absolute;
+    margin-top: 80px;
+    right: 10px;
+    background: url(./images-2/logo_title.png);
+    background-size: cover;
+}
+.home-bottom{
+    width: 100%;
+    height: 448px;
+    border-top: #182d55 14px solid;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.5);
+}
+nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 25px 20px;
+    font-weight: bold;
+    justify-content: space-around;
+    color: white;
+    font-size: 16px;
+}
+.nav-items{
+    padding: 10px 30px;
+    border-left: 2px solid white;
+}
+.nav-items:nth-child(1){
+    border-left: none;
+}
+.img-ga{
+    width: 1010px;
+    margin: auto;
+    bottom: 0px;
+    background: url(./images-2/helicopters.jpg) no-repeat center center;
+    height: 242px;
+    padding: 40px 0px;
+    border-bottom: 30px solid #182d55 ;
+    border-top: 30px solid #182d55 ;
+}
+#aerial-app{
+    width: 1010px;
+    height: 321px;
+    margin: auto;
+    background: url(./images-2/frameimg1.jpg) fixed no-repeat;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.a-title{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+}
+.a-title span{
+    padding: 0px 10px;
+    border: #FFF 8px solid;
+}
+.line{
+    width: 200px;
+    height: 10px;
+    border-bottom: 5px solid white;
+    position: absolute;
+    left: 185px;
+}
+.line-2{
+    left: 625px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+#body{
+    width: 1010px;
+    margin: auto;
+}
+.b-text{
+    font-family: "times New Roman";
+    font-size: 24px;
+    color: #182D55;
+    text-align: center;
+    padding: 0px 30px;
+    padding-top: 60px;
+}
+.fan{
+    padding: 60px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.b-t-p{
+    width: 100%;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+#Helicopter-se{
+    width: 1010px;
+    height: 321px;
+    margin: auto;
+    background: url(./images-2/frameimg2.jpg) fixed no-repeat;
+    background-size: cover;
+}
+#Flight-tra{
+    width: 1010px;
+    height: 321px;
+    margin: auto;
+    background: url(./images-2/frameimg3.jpg) fixed no-repeat;
+    background-size: cover;
+}
+#Charters{
+    width: 1010px;
+    height: 321px;
+    margin: auto;
+    background: url(./images-2/frameimg4.jpg) fixed no-repeat;
+    background-size: cover;
+}
+#contact{
+    width: 1010px;
+    height: 321px;
+    margin: auto;
+    background: url(./images-2/frameimg5.jpg) fixed no-repeat;
+    background-size: cover;
+}
+.ho-line{
+    width: 90%;
+    height: 10px;
+    margin: auto;
+    border-top: 2px solid black;
+    padding-bottom: 20px;
+}
